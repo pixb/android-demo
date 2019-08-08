@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:id="@+id/vs_sp1"
+        android:inflatedId="@+id/transstub1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+    <View
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <ViewStub
+        android:id="@+id/vs_sp2"
+        android:inflatedId="@+id/transstub2"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+</LinearLayout>
