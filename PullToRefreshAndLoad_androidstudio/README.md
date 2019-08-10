@@ -1,0 +1,3 @@
+# PullToRefreshAndLoad_androidstudio
+这个工程用来测试下拉刷新，是从别人的库中Eclipse项目改为androidStudio项目
+只在给公司项目用作RecycleView的一个测试项目
