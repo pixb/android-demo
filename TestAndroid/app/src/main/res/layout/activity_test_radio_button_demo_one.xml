@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup_main_finger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radio_main_stone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="石头" />
+
+        <RadioButton
+            android:id="@+id/radio_main_scissor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剪刀" />
+
+        <RadioButton
+            android:id="@+id/radio_main_sheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_main_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="出拳" />
+
+    <TextView
+        android:id="@+id/text_main_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="" />
+
+</LinearLayout>

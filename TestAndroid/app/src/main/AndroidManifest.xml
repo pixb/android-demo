@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pix.testandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".net.TestNetActivity" />
+        <activity android:name=".net.http.TestHttpActivity" />
+        <activity android:name=".net.http.okhttp.TestOKHttpActivity" />
+        <activity android:name=".net.http.okhttp.TestOKHttpGetActivity" />
+        <activity android:name=".net.http.okhttp.TestOKHttpPostActivity" />
+        <activity android:name=".net.http.okhttp.TestOKHttpUploadActivity" />
+        <activity android:name=".view.TestMyViewActivity" />
+        <activity android:name=".view.sub.FlashTextViewActivity" />
+        <activity android:name=".view.matrix.TestMatrixActivity" />
+        <activity android:name=".view.matrix.TestMatrixTransActivity" />
+        <activity android:name=".view.matrix.TestMatrixScaleActivity" />
+        <activity android:name=".view.matrix.TestMatrixRotateActivity" />
+        <activity android:name=".view.matrix.TestMatrixSkewActivity" />
+        <activity android:name=".view.sub.TestTopBarActivity" />
+        <activity android:name=".thread.TestThreadActivity" />
+        <activity android:name=".thread.TestAsyncTaskActivity" />
+        <activity android:name=".thread.TestHandlerThreadActivity" />
+        <activity android:name=".view.TestWidgetActivity" />
+        <activity android:name=".view.common.TestListViewActivity" />
+        <activity android:name=".view.common.listview.TestListViewSimpleAdapterActivity" />
+        <activity android:name=".view.common.TestSpinnerActivity" />
+        <activity android:name=".view.common.spinner.TestSpinnerConnectionMenuActivity" />
+        <activity android:name=".view.common.TestCheckBoxActivity" />
+        <activity android:name=".view.common.checkbox.TestCheckBoxBaseActivity" />
+        <activity android:name=".view.common.checkbox.TestCheckBoxDemoActivity" />
+        <activity android:name=".view.common.TestImageViewActivity" />
+        <activity android:name=".view.common.imageview.TestImageViewDemoOneActivity" />
+        <activity android:name=".view.common.spinner.TestSpinnerDemoTwoActivity" />
+        <activity android:name=".view.common.TestRadioButtonActivity" />
+        <activity android:name=".view.common.radiobutton.TestRadioButtonDemoOneActivity" />
+        <activity android:name=".view.common.spinner.TestSpinnerDemoThreeActivity" />
+        <activity android:name=".view.common.TestEditTextActivity" />
+        <activity android:name=".view.common.TestEditTextDemoOneActivity" />
+        <activity android:name=".view.common.listview.TestListViewBaseAdapterActivity" />
+        <activity android:name=".view.common.TestOtherWidgetActivity" />
+        <activity android:name=".storage.TestStorageActivity" />
+        <activity android:name=".storage.sharedpreferences.TestSPDemoOneActivity"></activity>
+    </application>
+
+</manifest>

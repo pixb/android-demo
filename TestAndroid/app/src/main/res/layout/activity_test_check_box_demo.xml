@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/checkBox_main_hobby1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游泳" />
+
+    <CheckBox
+        android:id="@+id/checkBox_main_hobby2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上网" />
+
+    <CheckBox
+        android:id="@+id/checkBox_main_hobby3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音乐" />
+
+    <CheckBox
+        android:id="@+id/checkBox_main_hobby4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="睡觉" />
+
+    <Button
+        android:id="@+id/button_main_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+</LinearLayout>
