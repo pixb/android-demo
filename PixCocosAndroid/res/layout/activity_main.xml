@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    >
+	    <Button 
+	        android:id="@+id/btn_main_test"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:text="测试项目"
+	        />
+	    <Button 
+	        android:id="@+id/btn_main_jufan"
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:text="聚范动画"
+	        />
+	    
+	    
+	</LinearLayout>
+</ScrollView>
