@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fromXDelta="100"
+    android:fromYDelta="0"
+    android:interpolator="@android:anim/cycle_interpolator"
+    android:toXDelta="0"
+    android:toYDelta="0" />
+
+<!--
+参数说明：
+fromXDelta,fromYDelta 起始时X，Y座标,屏幕右下角的座标是X:320,Y:480
+toXDelta， toYDelta 动画结束时X,Y的座标
+ -->

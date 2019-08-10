@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:propertyName="alpha"
+    android:repeatCount="1"
+    android:repeatMode="reverse"
+    android:startOffset="200"
+    android:valueFrom="0.0"
+    android:valueTo="1.0"
+    android:valueType="floatType" />
+
+<!--
+duration 表示动画执行的时间
+
+propertyName 表示修改的物件的哪个属性值，这里是透明度
+
+valueFrom 表示从哪个状态值开始动画
+
+valueTo 表示到哪个状态值结束动画
+
+valueType 类型估值，主要用于设置动画操作属性的值
+
+repeatMode 表示重复的模式 reverse表示
+
+repeatCount 动画重复的计数，动画将会执行该值+1次
+
+repeatMode 动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+
+startOffset， 动画多次执行的间隔时间，如果只执行一次，执行前会暂停这段时间，单位毫秒
+
+interpolator 指定动画插入器
+-->

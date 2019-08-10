@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pix.anim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".base.tween.TweenAnimationActivity" />
+        <activity android:name=".base.tween.AlphaAnimationActivity" />
+        <activity android:name=".base.tween.ScaleAnimationActivity" />
+        <activity android:name=".base.tween.RotateAnimationActivity" />
+        <activity android:name=".base.tween.TranslateAnimationActivity" />
+        <activity android:name=".base.tween.AnimationSetActivity" />
+        <activity android:name=".base.property.ObjectAnimatorActivity" />
+        <activity android:name=".base.property.PropertyAnimationActivity" />
+        <activity android:name=".base.BaseAnimActivity" />
+        <activity android:name=".project.ProjectAnimActivity"></activity>
+
+        <activity android:name=".project.guagua.GuaGuaAnimationActivity" />
+        <activity android:name=".project.guagua.LandDriverActivity" />
+        <activity android:name=".project.guagua.FlyDriverActivity" />
+        <activity android:name=".project.guagua.GiftActivity" />
+        <activity android:name=".project.guagua.SingleGiftActivity" />
+        <activity android:name=".project.guagua.RepeatGiftActivity" />
+        <activity android:name=".project.guagua.QuotaGiftActivity" />
+        <activity android:name=".project.qiqi.QiQiRepeatGiftActivity" />
+        <activity android:name=".project.qiqi.QiQiAnimationActivity" />
+        <activity android:name=".project.qiqi.SendGiftActivity" />
+        <activity android:name=".project.qiqi.SendFlowerActivity" />
+        <activity android:name=".project.jufan.JuFanAnimationActivity" />
+        <activity android:name=".project.jufan.CarActivity" />
+        <activity android:name=".project.jufan.EnterRoomActivity" />
+        <activity android:name=".particle.ParticleAnimationActivity" />
+        <activity android:name=".particle.BlazeActivity" />
+        <activity android:name=".particle.LightningActivity" />
+        <activity android:name=".particle.StarSkyActivity" />
+        <activity android:name=".particle.SnowActivity" />
+        <activity android:name=".particle.Snow2Activity"></activity>
+    </application>
+
+</manifest>

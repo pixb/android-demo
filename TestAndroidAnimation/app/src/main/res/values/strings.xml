@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TestAndroidAnimation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_particle_animation">ParticleAnimationActivity</string>
+    <string name="title_activity_qi_qi_animation">QiQiAnimationActivity</string>
+    <string name="title_activity_send_gift">SendGiftActivity</string>
+    <string name="title_activity_send_flower">SendFlowerActivity</string>
+    <string name="title_activity_blaze">BlazeActivity</string>
+    <string name="title_activity_fire_work">FireWorkActivity</string>
+    <string name="title_activity_lightning">LightningActivity</string>
+    <string name="title_activity_star_sky">StarSkyActivity</string>
+    <string name="title_activity_snow">SnowActivity</string>
+    <string name="title_activity_snow2">Snow2Activity</string>
+    <string name="title_activity_qi_qi_repeat_gift">QiQiRepeatGiftActivity</string>
+    <string name="title_activity_enter_room">EnterRoomActivity</string>
+</resources>

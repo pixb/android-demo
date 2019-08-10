@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/room_root_layout"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <TextView
+        android:id="@+id/videoViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="视频区域" />
+
+    <Button
+        android:id="@+id/btnSendFlower"
+        android:layout_alignBottom="@+id/videoViewGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="送花" />
+
+</RelativeLayout>
