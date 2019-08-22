@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\reverse_anim.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\anim\\reverse_anim.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\rotating.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\anim\\rotating.xml"
+    }
+]

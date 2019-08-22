@@ -1,0 +1,425 @@
+[
+    {
+        "outputFile": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 39,
+                        "endOffset": 133
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 38,
+                    "endOffset": 129
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 139,
+                        "endColumn": 38,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 134,
+                    "endColumn": 44,
+                    "endOffset": 174
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 44,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 179,
+                    "endColumn": 39,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 39,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 491,
+                    "endColumn": 57,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endColumn": 55,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 74,
+                    "endOffset": 675
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.4.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 74,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 680,
+                    "endColumn": 75,
+                    "endOffset": 751
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.4.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 75,
+                        "endOffset": 473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 756,
+                    "endColumn": 71,
+                    "endOffset": 823
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.4.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 478,
+                        "endColumn": 71,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 828,
+                    "endColumn": 65,
+                    "endOffset": 889
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.4.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 65,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 894,
+                    "endColumn": 50,
+                    "endOffset": 940
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 50,
+                        "endOffset": 105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 945,
+                    "endColumn": 44,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 111,
+                        "endColumn": 44,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 42,
+                    "endOffset": 1028
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 42,
+                        "endOffset": 640
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1033,
+                    "endColumn": 45,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 555,
+                        "endColumn": 45,
+                        "endOffset": 596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 43,
+                    "endOffset": 1118
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 43,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 48,
+                    "endOffset": 1167
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 48,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1172,
+                    "endColumn": 49,
+                    "endOffset": 1217
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 49,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1222,
+                    "endColumn": 45,
+                    "endOffset": 1263
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 45,
+                        "endOffset": 401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1268,
+                    "endColumn": 48,
+                    "endOffset": 1312
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 310,
+                        "endColumn": 48,
+                        "endOffset": 354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1317,
+                    "endColumn": 46,
+                    "endOffset": 1359
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 262,
+                        "endColumn": 46,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1364,
+                    "endColumn": 50,
+                    "endOffset": 1410
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 50,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1415,
+                    "endColumn": 53,
+                    "endOffset": 1464
+                },
+                "from": {
+                    "file": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 53,
+                        "endOffset": 256
+                    }
+                }
+            }
+        ]
+    }
+]

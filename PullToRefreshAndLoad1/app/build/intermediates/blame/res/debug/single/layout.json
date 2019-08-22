@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_layout.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\list_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recycleview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_recycleview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_expandablelistview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_expandablelistview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\load_more.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\load_more.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_textview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_textview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_imageview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_imageview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scrollview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_scrollview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gridview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_gridview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_listview.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "D:\\code\\demo\\PullToRefreshAndLoad1\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    }
+]
