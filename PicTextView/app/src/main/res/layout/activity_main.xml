@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="50dp"
+        android:paddingTop="5dp">
+        <com.guagua.live.lib.widget.ui.PicAndTextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/pic_text"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content">
+        </com.guagua.live.lib.widget.ui.PicAndTextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
