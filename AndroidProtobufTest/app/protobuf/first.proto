@@ -1,0 +1,16 @@
+syntax = "proto2";
+package com.pix.protobufandroid.protobuf; 
+// ==================================================
+// 定义socket协议
+// ==================================================
+
+
+// 请求登录
+message Login 
+{
+	required string cmd = 1;	//用户命令字
+	required int64 userid = 2; // 用户ID
+	required string passwd = 4;//用户的密码
+	optional string name = 3; //用户的昵称
+	
+}
