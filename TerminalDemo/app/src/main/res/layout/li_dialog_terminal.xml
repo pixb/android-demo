@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/cb_terminal_item_navigate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="#F00"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:text="Navigate" />
+
+        <CheckBox
+            android:id="@+id/cb_terminal_item_rlsp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="#00F"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:text="RLSP" />
+
+        <CheckBox
+            android:id="@+id/cb_terminal_item_cmsp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="#0f0"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="CMSL" />
+
+        <CheckBox
+            android:id="@+id/cb_terminal_item_player"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:background="#000"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:text="Player" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_terminal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>
