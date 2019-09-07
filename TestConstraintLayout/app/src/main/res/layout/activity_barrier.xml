@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarrierActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="姓名：Tomas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址：光谷广场地铁3号出口"
+        app:layout_constraintTop_toBottomOf="@id/tv1"
+        app:layout_constraintLeft_toLeftOf="@id/tv1"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. I Love Android. "
+        app:layout_constraintLeft_toRightOf="@id/barrier"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintTop_toTopOf="@id/tv1"
+        android:layout_marginLeft="10dp"
+        />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="tv1,tv2"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

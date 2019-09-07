@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".BarrierActivity"></activity>
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".CircularPosActivity" />
+        <activity android:name=".ChainsActivity" />
+        <activity android:name=".RatioActivity" />
+        <activity android:name=".BiasActivity" />
+        <activity android:name=".RelativePosActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

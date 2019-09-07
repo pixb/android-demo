@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativePosActivity">
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是一个标题"
+        android:textSize="20sp"
+        android:id="@+id/tv_title"
+        app:layout_constraintLeft_toRightOf="@id/iv_photo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="作者：zw"
+        android:id="@+id/tv_author"
+        app:layout_constraintLeft_toLeftOf="@id/tv_title"
+        app:layout_constraintTop_toTopOf="@id/tv_title"
+        app:layout_constraintBottom_toBottomOf="@id/iv_photo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="评分：10分"
+        android:textSize="14sp"
+        android:id="@+id/tv_rating"
+        app:layout_constraintTop_toBottomOf="@id/tv_author"
+        app:layout_constraintLeft_toLeftOf="@id/tv_author"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_photo"
+        app:layout_constraintBottom_toBottomOf="@id/iv_photo"
+        android:layout_marginRight="20dp"
+        android:text="详情"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
