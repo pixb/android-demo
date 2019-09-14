@@ -1,5 +1,6 @@
 package com.pix.testcoordinatorlayout
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 
@@ -20,8 +21,8 @@ class MainActivity : AppCompatActivity() {
             R.id.fab -> Snackbar.make(v, "FAB", Snackbar.LENGTH_LONG)
                     .setAction("cancel") {
                         //这里的单击事件代表点击消除Action后的响应事件
-                    }
-                    .show()
+                    }.show()
+            R.id.btn_test_behavior -> startActivity(Intent(this,TestBehaviorActivity::class.java))
         }
     }
 }

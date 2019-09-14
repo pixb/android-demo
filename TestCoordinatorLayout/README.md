@@ -20,7 +20,7 @@
 
 使用`CoordinatorLayout`需要在Gradle加入Support Design Library：
 
-```
+```groovy
 compile 'com.android.support:design:22.2.1'
 ```
 
@@ -70,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 //这里的单击事件代表点击消除Action后的响应事件
-
                             }
                         })
                         .show();
