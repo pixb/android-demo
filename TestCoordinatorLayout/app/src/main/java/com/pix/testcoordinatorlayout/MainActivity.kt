@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                         //这里的单击事件代表点击消除Action后的响应事件
                     }.show()
             R.id.btn_test_behavior -> startActivity(Intent(this,TestBehaviorActivity::class.java))
+            R.id.btn_test_rcv -> startActivity(Intent(this,TestRecyclerView::class.java))
         }
     }
 }
