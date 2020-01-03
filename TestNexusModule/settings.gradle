@@ -1,0 +1,2 @@
+include ':app', ':pix-module'
+rootProject.name='TestNexusModule'
