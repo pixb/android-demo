@@ -1,0 +1,3 @@
+include ':hello-fragment'
+include ':app'
+rootProject.name = "TestFragment"
