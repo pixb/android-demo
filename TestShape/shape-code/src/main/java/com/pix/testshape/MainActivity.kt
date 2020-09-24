@@ -4,12 +4,10 @@ import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.pix.testshape.ext.btn_shape_selector
 import com.pix.testshape.ext.dp
 import com.pix.testshape.ext.pressDrawableSelector
 import com.pix.testshape.ext.shape
 import kotlinx.android.synthetic.main.activity_main.*
-import org.w3c.dom.Text
 
 /**
  * 展示shape的Demo
@@ -60,13 +58,13 @@ class MainActivity : AppCompatActivity() {
         btn_selector.background = pressDrawableSelector {
             pressedDrawable = shape {
                 shape = GradientDrawable.RECTANGLE
-                cornerRadius = 10f
+                cornerRadius = 10.dp.toFloat()
                 setColor(Color.BLUE)
                 setStroke(2.dp,Color.parseColor("#ffff00"))
             }
             unpressedDrawable = shape {
                 shape = GradientDrawable.RECTANGLE
-                cornerRadius = 10f
+                cornerRadius = 10.dp.toFloat()
                 setColor(Color.GRAY)
                 setStroke(2.dp,Color.parseColor("#ffff00"))
             }
