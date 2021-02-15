@@ -27,6 +27,15 @@
             android:text="自定义View的DialogFragment"
             android:textAllCaps="false"
             />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_test_dialog_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/btn_custom_view_dialog"
+            android:text="整体测试TestDialogFragment"
+            android:textAllCaps="false"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

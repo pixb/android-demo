@@ -20,7 +20,7 @@ class SimpleDialogFragment: DialogFragment() {
 //        var builder = AlertDialog.Builder(activity, R.style.CustomDialog)
         var builder = AlertDialog.Builder(activity)
         builder.run {
-            setTitle("注意：")
+            setTitle("SimpleDialogFragment")
             setMessage("是否退出？")
             setPositiveButton("确定", null)
             setNegativeButton("取消", null)

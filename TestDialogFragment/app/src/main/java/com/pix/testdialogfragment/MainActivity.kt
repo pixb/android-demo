@@ -7,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     var simpleDialogFragment: SimpleDialogFragment? = null
     var customViewDialogFragment: CustomViewDialogFragment? = null
+    var testDialogFragment: TestDialogFragment? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
         customViewDialogFragment = CustomViewDialogFragment()
         btn_custom_view_dialog.setOnClickListener {
             customViewDialogFragment?.show(supportFragmentManager, "custom view dialog")
+        }
+        testDialogFragment = TestDialogFragment()
+        btn_test_dialog_fragment.setOnClickListener {
+            testDialogFragment?.show(supportFragmentManager, TestDialogFragment::class.java.simpleName)
         }
     }
 
